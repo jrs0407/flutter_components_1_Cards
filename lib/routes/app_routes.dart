@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_components_1/models/models.dart';
+import 'package:flutter_components_1/screens/listView3_screen.dart';
 import 'package:flutter_components_1/screens/screens.dart';
 
 
@@ -22,6 +23,11 @@ class AppRoutes {
       icon: Icons.list_alt_rounded, 
       name: 'ListView tipo 2', 
       screen: const Listview2Screen()),
+      MenuOption(
+      route: 'listview3', 
+      icon: Icons.list_alt_rounded, 
+      name: 'ListView tipo 3', 
+      screen: const Listview3Screen()),
       MenuOption(
       route: 'alert', 
       icon: Icons.warning, 
