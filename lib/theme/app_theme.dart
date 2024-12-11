@@ -29,6 +29,37 @@ class AppTheme {
       elevation: 5,
       foregroundColor: Colors.white
       ),
+
+      elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ElevatedButton.styleFrom(
+          backgroundColor: primary,
+          foregroundColor: Colors.white,
+          shape: const StadiumBorder(),
+          elevation: 5,
+
+        )
+      ),
+
+      //InputDecoration
+      inputDecorationTheme: InputDecorationTheme(
+        floatingLabelStyle:  TextStyle(color: primary),
+        enabledBorder: OutlineInputBorder(
+          borderSide:  BorderSide(color: primary),
+          borderRadius: BorderRadius.circular(10),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderSide: BorderSide(color: primary),
+          borderRadius: BorderRadius.circular(10),
+        ),
+        border: OutlineInputBorder(
+          borderRadius: BorderRadius.circular(10),
+        )
+      ),
+
+      sliderTheme: const SliderThemeData(
+        activeTrackColor: primary,
+        thumbColor: primary,
+       ),
       
       );
 }

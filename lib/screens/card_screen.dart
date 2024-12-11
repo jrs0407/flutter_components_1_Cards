@@ -27,7 +27,7 @@ class CardScreen extends StatelessWidget {
           SizedBox(height: 10),
           CustomCardTipo2(imagenUrl: 'https://www.xtrafondos.com/wallpapers/marcha-imperial-star-wars-4496.jpg', nombre: 'Star Wars 2'),
           SizedBox(height: 10),
-          CustomCardTipo2(imagenUrl: 'https://wallpapers.com/images/hd/4k-star-wars-darth-vader-art-gfufiqxrm9p5w4gp.jpg', nombre: 'Star Wars 3'),
+          CustomCardTipo2(imagenUrl: 'https://wallpapers.com/images/hd/4k-star-wars-darth-vader-art-gfufiqxrm9p5w4gp.jpg', nombre: 'hola'),
           SizedBox(height: 10),
           CustomCardTipo2(imagenUrl: 'https://wallpapers.com/images/hd/1920-x-1080-star-wars-88kwuwvd3lsml1zk.jpg'),
           

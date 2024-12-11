@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_components_1/screens/listView1_screen.dart';
 import 'package:flutter_components_1/theme/app_theme.dart';
 
 class CustomCardTipo1 extends StatelessWidget {
@@ -20,13 +21,15 @@ class CustomCardTipo1 extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.end,
             children: [
               TextButton(
-                onPressed: () {},
+                onPressed: () {Navigator.pop(context);},
                  child: const Text('Cancelar')
                  ),
                  Padding(
                    padding: const EdgeInsets.only(right: 8.0),
                    child: TextButton(
-                                   onPressed: () {},
+                                   onPressed: () {
+                                    Navigator.push(context, MaterialPageRoute(builder: (context) => Listview1Screen(),));
+                                   },
                    child: const Text('Aceptar')
                    ),
                  ),

@@ -38,6 +38,26 @@ class AppRoutes {
       icon: Icons.card_giftcard, 
       name: 'Card', 
       screen: const CardScreen()),
+      MenuOption(
+      route: 'avatar', 
+      icon: Icons.person_pin, 
+      name: 'Avatar', 
+      screen: const AvatarScreen()),
+      MenuOption(
+      route: 'animated', 
+      icon: Icons.animation, 
+      name: 'Animated Container', 
+      screen: const AnimatedScreen()),
+      MenuOption(
+      route: 'inputs', 
+      icon: Icons.question_mark, 
+      name: 'Forms: Inputs', 
+      screen: const InputsScreen()),
+      MenuOption(
+      route: 'slider', 
+      icon: Icons.sledding, 
+      name: 'Slider', 
+      screen: const SliderScreen()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes(){
